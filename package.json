@@ -1,7 +1,7 @@
 {
-  "name": "retrograde-rotation",
+  "name": "astro-lithe",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.3.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.1.5"
+    "@astrojs/mdx": "^0.18.2",
+    "astro": "^2.1.8"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.0.5",
+    "prettier": "^2.8.7",
+    "prettier-plugin-astro": "^0.8.0",
+    "sass": "^1.60.0",
+    "workbox-window": "^6.5.4"
   }
 }
