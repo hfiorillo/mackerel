@@ -13,7 +13,7 @@ export const defineConfig = (
       theme: "auto",
       brand: {
         type: "text",
-        text: "Home",
+        text: "☔️",
       },
     }),
     ...conf.base,
@@ -37,8 +37,8 @@ export const defineConfig = (
     <Array<types.Page>>[
       { name: "Home", uri: "/" },
       { name: "About", uri: "/about" },
-      { name: "Posts", uri: "/posts" },
-      { name: "Media", uri: "/media" },
+      { name: "Archive", uri: "/archive" },
+      { name: "Photos", uri: "/photos" },
     ];
 
   conf.comments =
